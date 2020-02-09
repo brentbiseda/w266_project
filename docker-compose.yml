@@ -1,4 +1,4 @@
-version: '2'
+version: '2.3'
 services:
          
   flask:
@@ -21,14 +21,12 @@ services:
     build:
         context: ./docker
         dockerfile: Dockerfile.bert
-    hostname: pyspark
-    container_name: pyspark
+    hostname: bert
+    container_name: bert
     privileged: true
     ports:
-        - "5555:5555"
-        - "5556:5556"
-    runtime: nvidia
-    command: bash -c "bert-as-service 1"
+        - "8888:8888"
+    # runtime: nvidia
     # command: bash
     tty: true
     stdin_open: true
