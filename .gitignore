@@ -6,6 +6,7 @@ __pycache__/
 # My Files
 model/
 datasets/
+output/
 
 # C extensions
 *.so

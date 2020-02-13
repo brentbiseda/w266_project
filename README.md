@@ -14,33 +14,26 @@ cuda_10.0.130_411.31_win10.exe
 pip install --upgrade pip
 pip install -r requirements.txt
 
-# How to use sentiment analysis with Bert  
-# https://medium.com/southpigalle/how-to-perform-better-sentiment-analysis-with-bert-ba127081eda
+# Start up Tensorboard and set directory
 
-# This Paper was done with this  
-# https://github.com/HSLCY/ABSA-BERT-pair
+tensorboard --logdir ../output/biobert_finetuned
 
-# Setting up Tensorboard
+# Go to Tensorboard location  
 
-tensorboard --logdir=../output/regularbert/  --port=8008
+http://localhost:6006
 
-# This line needs to be added in the tensorflow runner
-writer = tf.train.SummaryWriter("/tmp/test", sess.graph)
+# Bio Bert
 
-# Using BioBERT  
+# Run Training for Sentiment Analysis
 
-## Named Entity Recognition Evaluation  
+python run_classifier.py --do_train=true --num_train_epochs=10 --vocab_file=../model/biobert_v1.1_pubmed/vocab.txt --bert_config_file=../model/biobert_v1.1_pubmed/bert_config.json --task_name=drug --init_checkpoint=../model/biobert_v1.1_pubmed/model.ckpt-1000000 --data_dir=../datasets/SENT/ --output_dir=../output/biobert_finetuned
 
-python run_ner.py --do_train=false --do_eval=true --vocab_file=../model/biobert_large/vocab_cased_pubmed_pmc_30k.txt --bert_config_file=../model/biobert_large/bert_config_bio_58k_large.json --init_checkpoint=../model/biobert_large/bio_bert_large_1000k.ckpt --num_train_epochs=10.0 --data_dir=../datasets/NER/BC2GM --output_dir=../output/biobert/
+# Run Prediction for Sentiment Analysis on Development Set  
 
-# Using Clinical BERT  
+python run_classifier.py --do_eval=true --vocab_file=../model/biobert_v1.1_pubmed/vocab.txt --bert_config_file=../model/biobert_v1.1_pubmed/bert_config.json --task_name=drug --init_checkpoint=../model/biobert_v1.1_pubmed/model.ckpt-1000000 --data_dir=../datasets/SENT/ --output_dir=../output/biobert_dev
 
-# Named Entity Recognition Evaluation  
+# Run Prediction for Sentiment Analysis on TestSet  
 
-python run_ner.py --do_train=false --do_eval=true --vocab_file=../model/biobert_pretrain_output_all_notes_150000/vocab.txt --bert_config_file=../model/biobert_pretrain_output_all_notes_150000/bert_config.json --init_checkpoint=../model/biobert_pretrain_output_all_notes_150000/model.ckpt-150000 --num_train_epochs=10.0 --data_dir=../datasets/NER/BC2GM --output_dir=../output/clinicalbert/
+python run_classifier.py --do_predict=true --vocab_file=../model/biobert_v1.1_pubmed/vocab.txt --bert_config_file=../model/biobert_v1.1_pubmed/bert_config.json --task_name=drug --init_checkpoint=../model/biobert_v1.1_pubmed/model.ckpt-1000000 --data_dir=../datasets/SENT/ --output_dir=../output/biobert_test
 
-# Using Regular BERT  
 
-# Named Entity Recognition Evaluation  
-
-python run_ner.py --do_train=false --do_eval=true --vocab_file=../model/wwm_uncased_L-24_H-1024_A-16/vocab.txt --bert_config_file=../model/wwm_uncased_L-24_H-1024_A-16/bert_config.json --init_checkpoint=../model/wwm_uncased_L-24_H-1024_A-16/bert_model.ckpt --num_train_epochs=10.0 --data_dir=../datasets/NER/BC2GM --output_dir=../output/regularbert/
