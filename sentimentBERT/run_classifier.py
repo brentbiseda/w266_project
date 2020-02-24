@@ -401,9 +401,6 @@ class DrugProcessor(DataProcessor):
        
     examples = []
     for (i, line) in enumerate(lines):
-      # Only the test set has a header
-      if set_type == "test" and i == 0:
-        continue
       guid = "%s-%s" % (set_type, i)
       if set_type == "test":
         text_a = tokenization.convert_to_unicode(line[0])
@@ -1014,7 +1011,7 @@ def main(_):
         input_file=eval_file,
         seq_length=FLAGS.max_seq_length,
         is_training=False,
-        drop_remainder=predict_drop_remainder)
+        drop_remainder=eval_drop_remainder)
 
     result = estimator.predict(input_fn=predict_input_fn)    
  
@@ -1024,14 +1021,14 @@ def main(_):
       tf.logging.info("***** Predict results *****")
       for (i, prediction) in enumerate(result):
         probabilities = prediction["probabilities"]
-        if i >= num_actual_predict_examples:
+        if i >= num_actual_eval_examples:
           break
         output_line = "\t".join(
             str(class_probability)
             for class_probability in probabilities) + "\n"
         writer.write(output_line)
         num_written_lines += 1
-    assert num_written_lines == num_actual_predict_examples
+    assert num_written_lines == num_actual_eval_examples
 
   if FLAGS.do_predict:
   
@@ -1085,8 +1082,9 @@ def main(_):
         input_file=predict_file,
         seq_length=FLAGS.max_seq_length,
         is_training=False,
-        drop_remainder=eval_drop_remainder)
-
+        drop_remainder=predict_drop_remainder)
+    
+    eval_steps = None
     result = estimator.evaluate(input_fn=eval_input_fn, steps=eval_steps)
 
     output_eval_file = os.path.join(FLAGS.output_dir, "test_results.txt")
