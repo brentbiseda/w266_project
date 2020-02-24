@@ -1,0 +1,326 @@
+avelox-51c3e5a853785f584a9a8c01	76	93	ADR	connective tissue	avelox	avelox
+avelox-51c3e5a853785f584a9a8c01	94	99	ADR	lungs	avelox	avelox
+avelox-51c3e5a853785f584a9a8c01	104	111	ADR	thyroid	avelox	avelox
+baclofen-51b35e355378b9555a2f0709	78	84	ADR	drowsy	baclofen	baclofen
+baclofen-51b35e355378b9555a2f0709	110	114	ADR	high	baclofen	baclofen
+baclofen-51b3f1ec5378b9555a2f0923	25	29	ADR	high	baclofen	baclofen
+baclofen-51b3f1ec5378b9555a2f0923	46	67	ADR	feel like throwing up	baclofen	baclofen
+cipro-51913272ac6ab35b4d484473	35	52	ADR	murdering my mind	cipro	cipro
+cipro-51cc964953785f584a9acfb2	41	59	ADR	anaphylactic shock	cipro	cipro
+cipro-51cc964953785f584a9acfb2	66	77	ADR	almost died	cipro	cipro
+cipro-51cdec7053785f584a9ad77f	15	42	ADR	nose feel like its bleeding	cipro	cipro
+cipro-51d94ccd53785f584a9b1994	69	77	ADR	crippled	cipro	cipro
+cymbalta-518a4972ac6a942006b3ea6c	8	20	ADR	numb to feel	cymbalta	cymbalta
+cymbalta-51913a30ac6ad74cd505f118	56	62	ADR	sleepy	cymbalta	cymbalta
+cymbalta-51aa21a953787e40790dfc77	58	65	ADR	vertigo	cymbalta	cymbalta
+cymbalta-51af49345378f924d02f0304	39	50	ADR	with drawls	cymbalta	cymbalta
+cymbalta-51b0d35d5378b9555a2ef612	31	40	ADR	dizziness	cymbalta	cymbalta
+cymbalta-51b35acd5378b9555a2f06e6	77	84	ADR	wdrawal	cymbalta	cymbalta
+cymbalta-51b3a4da5378b9555a2f0849	13	17	ADR	mood	cymbalta	cymbalta
+cymbalta-51b3b3c25378b9555a2f0879	37	53	Indication	anti-depressants	cymbalta	cymbalta
+cymbalta-51b3b3c25378b9555a2f0879	107	116	ADR	migraines	cymbalta	cymbalta
+cymbalta-51b4e1e95378b9555a2f0c7e	53	63	ADR	nightmares	cymbalta	cymbalta
+effexor-518b0b46ac6ab35b4d47fd0b	10	19	ADR	withdrawl	effexor	effexor
+effexor-518f4496ac6ab35b4d482fb3	41	47	ADR	Vomits	effexor	effexor
+effexor-51bcba575378b9555a2f34e1	0	6	ADR	Crying	effexor	effexor
+effexor-51bcba575378b9555a2f34e1	69	79	ADR	withdrawls	effexor	effexor
+effexor-51bf2fd65378b9555a2f3f5a	76	96	ADR	descent into madness	effexor	effexor
+effexor-51c626cd53785f584a9aa0d4	22	31	ADR	headaches	effexor	effexor
+effexor-51c626cd53785f584a9aa0d4	33	44	ADR	no appetite	effexor	effexor
+effexor-51d5efb753785f584a9b0d84	86	93	Indication	anxiety	effexor	effexor
+effexor-51d5efb753785f584a9b0d84	100	110	Indication	depression	effexor	effexor
+effexor-51d5efb753785f584a9b0d84	116	128	ADR	irritability	effexor	effexor
+effexor-51d88e8153785f584a9b1708	41	50	Indication	cataplexy	effexor	effexor
+effexor-51d88e8153785f584a9b1708	101	108	ADR	rebound	effexor	effexor
+enbrel-51ba2ed45378b9555a2f2804	39	44	Drug	metho	enbrel	enbrel
+enbrel-51ba2ed45378b9555a2f2804	53	57	ADR	sick	enbrel	metho
+enbrel-51bac11c5378b9555a2f2b69	49	59	ADR	eyes worse	enbrel	enbrel
+enbrel-51c89f2153785f584a9ab714	87	93	ADR	weight	enbrel	enbrel
+enbrel-51cf4eac53785f584a9ae00f	60	63	ADR	nap	enbrel	enbrel
+fluoxetine-517f0befac6af778c203dc69	20	30	ADR	see shapes	fluoxetine	fluoxetine
+fluoxetine-518b8a58ac6ab35b4d4802c1	36	45	ADR	zombified	fluoxetine	fluoxetine
+fluoxetine-518b8a58ac6ab35b4d4802c1	78	85	Indication	bipolar	fluoxetine	fluoxetine
+fluoxetine-51b44b595378b9555a2f0a45	100	112	ADR	paraesthesia	fluoxetine	fluoxetine
+fluoxetine-51b81a555378b9555a2f1c2d	20	31	ADR	14 hour nap	fluoxetine	fluoxetine
+fluoxetine-51d1cd8b53785f584a9af0b3	13	34	ADR	Restless Leg Syndrome	fluoxetine	fluoxetine
+geodon-51c379db53785f584a9a895f	40	61	ADR	messed up my attitude	geodon	geodon
+geodon-51c379db53785f584a9a895f	121	125	ADR	mean	geodon	geodon
+humira-51affeba5378b9555a2ef104	22	25	Drug	MTX	humira	humira
+humira-51affeba5378b9555a2ef104	27	35	ADR	headache	humira	MTX
+humira-51b0e86e5378b9555a2ef6c2	89	99	Drug	infliximab	humira	humira
+humira-51b0e86e5378b9555a2ef6c2	103	121	ADR	destroyed my liver	humira	infliximab
+humira-51b592c75378b9555a2f0f0b	49	54	ADR	tired	humira	humira
+humira-51b5f5355378b9555a2f109b	60	67	ADR	fatigue	humira	humira
+humira-51b5f5355378b9555a2f109b	81	85	ADR	pale	humira	humira
+humira-51b5f5355378b9555a2f109b	90	109	ADR	lost tons of weight	humira	humira
+humira-51b5f5355378b9555a2f109b	113	119	Indication	crohns	humira	humira
+humira-51d0c44b53785f584a9ae7d3	42	46	ADR	PAIN	humira	humira
+humira-51d20e3e53785f584a9af2dd	35	65	ADR	like I'm having a heart attack	humira	humira
+humira-51d20e3e53785f584a9af2dd	69	81	ADR	panic attack	humira	humira
+humira-51d20e3e53785f584a9af2dd	117	123	Indication	crohns	humira	humira
+humira-51d20e3e53785f584a9af2dd	125	127	Indication	ra	humira	humira
+lamictal-51aa913053787e40790dffce	21	32	ADR	almost died	lamictal	lamictal
+lamictal-51ca1ddb53785f584a9ac1e4	34	47	ADR	wreck my head	lamictal	lamictal
+lamotrigine-517ce655ac6af778c203a900	96	123	ADR	irritating my nerve endings	lamotrigine	lamotrigine
+lamotrigine-517d900bac6af778c203b048	43	48	ADR	yucky	lamotrigine	lamotrigine
+lamotrigine-5190e75dac6ab35b4d48403a	31	39	ADR	lethargy	lamotrigine	lamotrigine
+lamotrigine-51abc54d53787e40790e0744	57	63	ADR	ataxia	lamotrigine	lamotrigine
+lamotrigine-51adcd3c5378f924d02ef483	20	43	ADR	steven johnson syndrome	lamotrigine	lamotrigine
+lamotrigine-51c4937053785f584a9a8f22	1	9	Indication	epilepsy	lamotrigine	lamotrigine
+lamotrigine-51c4937053785f584a9a8f22	84	88	ADR	Rash	lamotrigine	lamotrigine
+lamotrigine-51c4937053785f584a9a8f22	114	122	ADR	Glaucoma	lamotrigine	topiramate
+lamotrigine-51c4937053785f584a9a8f22	128	138	Drug	topiramate	lamotrigine	lamotrigine
+lamotrigine-51d0102553785f584a9ae3a7	49	58	ADR	addictive	lamotrigine	lamotrigine
+lamotrigine-51d0102553785f584a9ae3a7	109	123	ADR	3 days of hell	lamotrigine	lamotrigine
+levaquin-51c9d46153785f584a9ac043	69	80	ADR	hallucinate	levaquin	levaquin
+lozenge-51784dc8ac6af778c203728d	32	46	ADR	stomach cramps	lozenge	lozenge
+metoprolol-51ae29315378f924d02ef808	83	94	ADR	depression.	metoprolol	metoprolol
+nicotine-51a7e19353787e40790dea82	41	51	ADR	withdrawal	nicotine	nicotine
+nicotine-51a7ed4953787e40790deb10	77	86	ADR	addiction	nicotine	nicotine
+nicotine-51a844d553787e40790dedd5	24	34	ADR	withdrawal	nicotine	nicotine
+nicotine-51d66a7e53785f584a9b0ff4	70	79	ADR	nightmare	nicotine	nicotine
+ofloxacin-51cf414353785f584a9adfda	33	51	ADR	sick to my stomach	ofloxacin	ofloxacin
+olanzapine-5178f864ac6af778c20379d1	77	115	ADR	like wading through treacle getting up	olanzapine	olanzapine
+olanzapine-517c1478ac6af778c2039d5e	64	79	ADR	hunger inducing	olanzapine	olanzapine
+olanzapine-51842b69ac6a942006b397ba	46	59	ADR	knocks me out	olanzapine	olanzapine
+olanzapine-51880eceac6a942006b3cf13	56	65	ADR	dry mouth	olanzapine	olanzapine
+olanzapine-518e37d8ac6ab35b4d4823ff	49	60	ADR	gain weight	olanzapine	olanzapine
+olanzapine-518e37d8ac6ab35b4d4823ff	71	76	ADR	binge	olanzapine	olanzapine
+olanzapine-518e37d8ac6ab35b4d4823ff	130	140	ADR	joint pain	olanzapine	olanzapine
+olanzapine-51ab28ff53787e40790e0354	108	119	ADR	weight gain	olanzapine	olanzapine
+olanzapine-51ab8c1653787e40790e05a6	36	50	ADR	olanzapine lbs	olanzapine	olanzapine
+olanzapine-51ae77985378f924d02efb70	102	115	ADR	gained 3stone	olanzapine	olanzapine
+olanzapine-51b23c5a5378b9555a2eff86	104	113	ADR	addiction	olanzapine	olanzapine
+olanzapine-51c3704a53785f584a9a8937	24	34	Drug	quetiapine	olanzapine	olanzapine
+olanzapine-51c3704a53785f584a9a8937	39	51	ADR	gained 40lbs	olanzapine	quetiapine
+olanzapine-51cdd1b353785f584a9ad6d3	33	44	ADR	gain 20 lbs	olanzapine	olanzapine
+olanzapine-51cdd1b353785f584a9ad6d3	82	86	ADR	acne	olanzapine	olanzapine
+paroxetine-51c0fcf953785f584a9a78a4	10	18	ADR	headache	paroxetine	paroxetine
+paroxetine-51c0fcf953785f584a9a78a4	101	114	Indication	socialanxiety	paroxetine	paroxetine
+paxil-518b6f96ac6ab35b4d480165	52	62	ADR	withdrawls	paxil	paxil
+paxil-518b8f4dac6ab35b4d480300	6	16	ADR	withdrawal	paxil	paxil
+paxil-51a9aa0353787e40790df927	36	46	Indication	depression	paxil	paxil
+paxil-51a9aa0353787e40790df927	47	54	Indication	anxiety	paxil	paxil
+paxil-51a9aa0353787e40790df927	110	119	ADR	tolerance	paxil	paxil
+paxil-51a9aa0353787e40790df927	126	139	ADR	come too fast	paxil	paxil
+paxil-51c87cac53785f584a9ab5bc	20	32	ADR	PEE SO OFTEN	paxil	paxil
+paxil-51c8f55a53785f584a9aba77	78	92	ADR	feel like crap	paxil	paxil
+paxil-51cd19d353785f584a9ad28f	52	62	ADR	forgetting	paxil	paxil
+paxil-51d5b3da53785f584a9b0bc5	69	78	ADR	impotency	paxil	paxil
+paxil-51daf8b453785f584a9b20c3	74	84	ADR	withdrawal	paxil	paxil
+pristiq-51a8b6dd53787e40790df133	85	95	ADR	withdrawal	pristiq	pristiq
+pristiq-51c34bb353785f584a9a8831	3	8	ADR	sleep	pristiq	pristiq
+pristiq-51c34bb353785f584a9a8831	60	71	ADR	gain weight	pristiq	pristiq
+prozac-518a70dcac6a942006b3ec2e	9	20	ADR	no appetite	prozac	prozac
+prozac-51a7ec3453787e40790deb02	13	18	ADR	hyper	prozac	prozac
+prozac-51a86c7053787e40790deedb	28	39	ADR	never sleep	prozac	prozac
+prozac-51a86c7053787e40790deedb	74	103	ADR	may NOT switch your brain off	prozac	prozac
+prozac-51a86c7053787e40790deedb	114	125	ADR	Exhaustion 	prozac	prozac
+prozac-51ad26bd5378f924d02eef73	61	65	ADR	sick	prozac	prozac
+prozac-51ad26bd5378f924d02eef73	70	84	ADR	twice as drunk	prozac	prozac
+quetiapine-5175b949ac6a202953c767c9	67	73	ADR	dreams	quetiapine	quetiapine
+quetiapine-5182a5fdac6a942006b383c2	42	47	ADR	tired	quetiapine	quetiapine
+quetiapine-5182a5fdac6a942006b383c2	49	55	ADR	sleepy	quetiapine	quetiapine
+quetiapine-5186d1c3ac6a942006b3bb95	75	85	ADR	bad dreams	quetiapine	quetiapine
+quetiapine-51a8074053787e40790debee	62	71	ADR	tiiiiired	quetiapine	quetiapine
+quetiapine-51a9c1ba53787e40790df99f	70	81	ADR	weight gain	quetiapine	quetiapine
+quetiapine-51b2307f5378b9555a2eff45	68	76	ADR	Numbness	quetiapine	quetiapine
+quetiapine-51b2307f5378b9555a2eff45	81	89	ADR	tingling	quetiapine	quetiapine
+quetiapine-51b5033f5378b9555a2f0d13	129	135	ADR	drowsy	quetiapine	quetiapine
+quetiapine-51b5d53e5378b9555a2f0fed	17	22	ADR	dizzy	quetiapine	quetiapine
+quetiapine-51b8f1725378b9555a2f2200	73	81	ADR	sedating	quetiapine	quetiapine
+quetiapine-51bde50f5378b9555a2f38dd	42	63	ADR	portions Prob too big	quetiapine	quetiapine
+quetiapine-51bf26315378b9555a2f3f2d	75	91	ADR	heart arrhythmia	quetiapine	quetiapine
+quetiapine-51c5751253785f584a9a9467	28	32	ADR	haze	quetiapine	quetiapine
+quetiapine-51c8000853785f584a9ab17c	25	31	ADR	zombie	quetiapine	quetiapine
+quetiapine-51c91b7653785f584a9abbe4	9	16	ADR	DIZZING	quetiapine	Tamazapam
+quetiapine-51c91b7653785f584a9abbe4	26	35	Drug	Tamazapam	quetiapine	quetiapine
+quetiapine-51c91b7653785f584a9abbe4	109	120	ADR	feel so Ick	quetiapine	quetiapine
+quetiapine-51cdf52253785f584a9ad7a5	45	49	ADR	sick	quetiapine	quetiapine
+quetiapine-51d063ed53785f584a9ae4e7	45	54	ADR	tiredness	quetiapine	quetiapine
+quetiapine-51daea0a53785f584a9b207f	43	49	ADR	hungry	quetiapine	quetiapine
+rivaroxaban-51bcbd615378b9555a2f3502	103	112	ADR	back pain	rivaroxaban	rivaroxaban
+rivaroxaban-51be90a35378b9555a2f3d10	44	56	ADR	pain in neck	rivaroxaban	rivaroxaban
+rivaroxaban-51be90a35378b9555a2f3d10	58	62	ADR	hips	rivaroxaban	rivaroxaban
+rivaroxaban-51be90a35378b9555a2f3d10	67	71	ADR	legs	rivaroxaban	rivaroxaban
+rivaroxaban-51bf0b735378b9555a2f3eca	124	129	ADR	aches	rivaroxaban	rivaroxaban
+rivaroxaban-51bf76ef5378b9555a2f412c	32	37	ADR	Aches	rivaroxaban	rivaroxaban
+seroquel-518b1299ac6ab35b4d47fd7b	18	28	ADR	nightmares	seroquel	seroquel
+seroquel-518b4b32ac6ab35b4d47ffef	48	54	ADR	crabby	seroquel	seroquel
+seroquel-518b4b32ac6ab35b4d47ffef	113	132	ADR	sluggish and groggy	seroquel	seroquel
+seroquel-518d6adaac6ab35b4d481c77	87	92	ADR	dizzy	seroquel	seroquel
+seroquel-518d6adaac6ab35b4d481c77	97	111	ADR	lightheadeded 	seroquel	seroquel
+seroquel-518da1d6ac6ab35b4d481edc	14	24	ADR	gain 18 kg	seroquel	seroquel
+seroquel-518df373ac6ab35b4d4821df	56	76	ADR	get the horn my life	seroquel	seroquel
+seroquel-51a7e2df53787e40790dea93	43	53	ADR	withdrawal	seroquel	seroquel
+seroquel-51a89af153787e40790df024	26	32	ADR	sleepy	seroquel	seroquel
+seroquel-51a8e15653787e40790df2b4	22	26	ADR	pain	seroquel	seroquel
+seroquel-51a8e15653787e40790df2b4	69	75	ADR	zombie	seroquel	seroquel
+seroquel-51aeaf675378f924d02efda6	60	75	ADR	sleeping 15 hrs	seroquel	seroquel
+seroquel-51aecfa75378f924d02efef0	68	91	ADR	crazy shit in my dreams	seroquel	seroquel
+seroquel-51af5c035378f924d02f03cf	19	24	ADR	tired	seroquel	seroquel
+seroquel-51af5c035378f924d02f03cf	38	46	ADR	nap time	seroquel	seroquel
+seroquel-51b68b205378b9555a2f1455	83	94	ADR	weight gain	seroquel	seroquel
+seroquel-51b73a085378b9555a2f174e	91	100	ADR	Zombiness	seroquel	seroquel
+seroquel-51b905435378b9555a2f2258	78	93	ADR	sleep paralysis	seroquel	seroquel
+seroquel-51bdab535378b9555a2f37fb	35	46	ADR	memory loss	seroquel	seroquel
+seroquel-51be37ce5378b9555a2f3ab9	99	112	ADR	gained weight	seroquel	seroquel
+seroquel-51be72195378b9555a2f3c7f	107	112	ADR	loopy	seroquel	seroquel
+seroquel-51bf6bcb5378b9555a2f40df	14	23	ADR	dry-mouth	seroquel	seroquel
+seroquel-51c5049d53785f584a9a91c2	100	116	ADR	sinuses close up	seroquel	seroquel
+seroquel-51c7855053785f584a9aad22	49	53	Indication	PTSD	seroquel	seroquel
+seroquel-51c7855053785f584a9aad22	102	113	ADR	weight gain	seroquel	seroquel
+seroquel-51c7855053785f584a9aad22	132	136	ADR	pain	seroquel	seroquel
+seroquel-51c9eb6753785f584a9ac0b7	73	96	ADR	screwing with my memory	seroquel	seroquel
+seroquel-51cb2ad753785f584a9ac7c4	0	9	ADR	lucidity 	seroquel	seroquel
+seroquel-51cb561c53785f584a9ac876	31	41	Drug	Olanzapine	seroquel	seroquel
+seroquel-51cb561c53785f584a9ac876	73	86	ADR	carb cravings	seroquel	Olanzapine
+seroquel-51cc235353785f584a9acce6	59	65	ADR	zombie	seroquel	seroquel
+seroquel-51cceacb53785f584a9ad171	54	69	ADR	barely function	seroquel	seroquel
+seroquel-51cf9b1953785f584a9ae1af	11	14	ADR	RLS	seroquel	seroquel
+trazodone-5183fec3ac6a942006b39598	38	43	ADR	angry	trazodone	trazodone
+trazodone-5183fec3ac6a942006b39598	59	64	ADR	awake	trazodone	trazodone
+trazodone-518a798eac6a942006b3ecb5	105	114	ADR	zombieish	trazodone	trazodone
+trazodone-518abf16ac6a942006b3f039	31	39	Indication	insomina	trazodone	trazodone
+trazodone-518abf16ac6a942006b3f039	103	115	ADR	crazy dreams	trazodone	trazodone
+trazodone-518c982fac6ab35b4d481263	36	44	ADR	priapism	trazodone	trazodone
+trazodone-518d950eac6ab35b4d481e6d	45	63	ADR	sleep for dayyssss	trazodone	trazodone
+trazodone-51905283ac6ab35b4d4839aa	53	64	ADR	weight gain	trazodone	trazodone
+trazodone-51a79abb5378d08eec90773f	46	64	ADR	sleep for 11 hours	trazodone	trazodone
+trazodone-51a81dc053787e40790decc4	43	61	ADR	troubles waking up	trazodone	trazodone
+trazodone-51aa06b053787e40790dfbc9	7	15	ADR	allergic	trazodone	trazodone
+trazodone-51ae15d15378f924d02ef72e	126	135	ADR	migraines	trazodone	trazodone
+trazodone-51bdefc65378b9555a2f390f	75	80	ADR	tired	trazodone	trazodone
+trazodone-51c6118d53785f584a9aa008	68	74	ADR	sleepy	trazodone	trazodone
+trazodone-51c8514c53785f584a9ab3eb	61	77	ADR	holes in my head	trazodone	trazodone
+trazodone-51ca659253785f584a9ac3ac	26	50	ADR	dream all types of crazy	trazodone	trazodone
+trazodone-51ca75a953785f584a9ac41a	15	20	ADR	hives	trazodone	trazodone
+trazodone-51d8efe153785f584a9b18aa	31	42	ADR	passing out	trazodone	trazodone
+trazodone-51dadbee53785f584a9b2027	10	18	ADR	hangover	trazodone	trazodone
+trazodone-51dadbee53785f584a9b2027	23	31	ADR	dry eyes	trazodone	trazodone
+venlafaxine-51764784ac6a202953c76e68	8	26	ADR	light nights sleep	venlafaxine	venlafaxine
+venlafaxine-517c4907ac6af778c2039fca	59	69	ADR	withdrawal	venlafaxine	venlafaxine
+venlafaxine-5186d386ac6a942006b3bbd1	57	72	ADR	disturbed sleep	venlafaxine	venlafaxine
+venlafaxine-5186d386ac6a942006b3bbd1	79	89	ADR	bad dreams	venlafaxine	venlafaxine
+venlafaxine-51895cf4ac6a942006b3df7c	22	33	ADR	itchy skin 	venlafaxine	venlafaxine
+venlafaxine-518e46e3ac6ab35b4d4824c5	7	25	ADR	siiiiiiiiiiiiiiick	venlafaxine	venlafaxine
+venlafaxine-51af392f5378f924d02f027b	42	53	ADR	withdrawals	venlafaxine	venlafaxine
+venlafaxine-51af392f5378f924d02f027b	94	123	ADR	electric shocks in your brain	venlafaxine	venlafaxine
+venlafaxine-51b064215378b9555a2ef320	12	22	ADR	withdrawal	venlafaxine	venlafaxine
+venlafaxine-51beecf55378b9555a2f3e44	60	78	ADR	messed up my sleep	venlafaxine	venlafaxine
+venlafaxine-51c1daf653785f584a9a7e62	19	25	ADR	zombie	venlafaxine	venlafaxine
+venlafaxine-51c1daf653785f584a9a7e62	67	77	Indication	depression	venlafaxine	venlafaxine
+venlafaxine-51c1daf653785f584a9a7e62	78	85	Indication	bipolar	venlafaxine	venlafaxine
+victoza-51d096b353785f584a9ae63d	75	81	ADR	nausea	victoza	victoza
+victoza-51d096b353785f584a9ae63d	99	112	Indication	lose @ 10 lbs	victoza	victoza
+viibryd-51c8d85753785f584a9ab96d	8	33	ADR	kidneys have been swollen	viibryd	viibryd
+vyvanse-51ad9cc05378f924d02ef36f	14	22	ADR	no sleep	vyvanse	vyvanse
+vyvanse-51adfeb35378f924d02ef61e	37	49	ADR	stomach hurt	vyvanse	vyvanse
+vyvanse-51ae12a95378f924d02ef6f6	62	74	ADR	heart attack	vyvanse	vyvanse
+vyvanse-51ae8c595378f924d02efc52	23	30	ADR	crazier	vyvanse	vyvanse
+vyvanse-51aec9ef5378f924d02efeb4	80	83	ADR	OCD	vyvanse	vyvanse
+vyvanse-51af62895378f924d02f0419	17	33	ADR	brain is melting	vyvanse	vyvanse
+vyvanse-51af8f255378f924d02f0624	39	47	ADR	headache	vyvanse	vyvanse
+vyvanse-51af8f255378f924d02f0624	49	54	ADR	anger	vyvanse	vyvanse
+vyvanse-51b034255378b9555a2ef221	28	66	ADR	sleeping schedule of a fucking vampire	vyvanse	vyvanse
+vyvanse-51b1e47e5378b9555a2efd25	23	57	ADR	grinds the shit out of their teeth	vyvanse	vyvanse
+vyvanse-51b222d05378b9555a2efee2	24	42	ADR	rid of my appetite	vyvanse	vyvanse
+vyvanse-51b4ed4b5378b9555a2f0ca8	69	86	ADR	heart was hurting	vyvanse	vyvanse
+vyvanse-51b75b305378b9555a2f17d8	17	28	ADR	All nighter	vyvanse	vyvanse
+vyvanse-51ba40525378b9555a2f2893	55	71	ADR	hating the world	vyvanse	vyvanse
+vyvanse-51d6856853785f584a9b104b	10	27	ADR	brain so retarded	vyvanse	vyvanse
+zyprexa-51a9aaa353787e40790df929	58	66	Indication	Bi-Polar	zyprexa	zyprexa
+zyprexa-51a9aaa353787e40790df929	70	83	Indication	Schizophrenia	zyprexa	zyprexa
+zyprexa-51a9aaa353787e40790df929	124	130	ADR	drowsy	zyprexa	zyprexa
+zyprexa-51d579b053785f584a9b0963	25	38	ADR	sleep walking	zyprexa	zyprexa
+cipro-5190201aac6ab35b4d483786	28	31	Indication	uti	cipro	cipro
+enbrel-51d305f853785f584a9afa05	10	22	Indication	aching bones	enbrel	enbrel
+enbrel-51d305f853785f584a9afa05	64	83	Indication	rheumatoidarthritis	enbrel	enbrel
+fluoxetine-51ae0b585378f924d02ef6a9	23	38	Indication	antidepressants	fluoxetine	fluoxetine
+fluoxetine-51bc76055378b9555a2f3326	84	107	Indication	Chronic Fatigue Sydrome	fluoxetine	fluoxetine
+lamictal-51c93bc553785f584a9abcff	12	15	Indication	OCD	lamictal	lamictal
+lamictal-51c93bc553785f584a9abcff	131	134	Indication	OCD	lamictal	lamictal
+levaquin-51d05ce353785f584a9ae4d1	90	96	Indication	kidney	levaquin	levaquin
+lozenge-51e9960e5378704aae892893	22	27	Indication	Voice	lozenge	lozenge
+paxil-51c8815b53785f584a9ab5f3	101	115	Indication	mood is stable	paxil	paxil
+quetiapine-5176de3dac6af778c203607d	111	118	Indication	Bipolar	quetiapine	quetiapine
+quetiapine-51842a30ac6a942006b397aa	108	115	Indication	madness	quetiapine	quetiapine
+quetiapine-51c7597e53785f584a9aab91	70	73	Indication	bpd	quetiapine	quetiapine
+seroquel-51c55f3f53785f584a9a93fa	68	82	ADR	sleep for days	seroquel	seroquel
+seroquel-51c55f3f53785f584a9a93fa	91	99	Indication	insomnia	seroquel	seroquel
+seroquel-51c55f3f53785f584a9a93fa	91	99	Indication	insomnia	seroquel	seroquel
+trazodone-518d71c0ac6ab35b4d481ccc	75	80	Indication	sleep	trazodone	trazodone
+trazodone-51c1c7aa53785f584a9a7d91	36	41	Indication	sleep	trazodone	trazodone
+tysabri-51bb70625378b9555a2f2fb0	65	67	Indication	ms	tysabri	tysabri
+venlafaxine-51b74f665378b9555a2f17a7	43	59	Indication	VOICESINYOURHEAD	venlafaxine	venlafaxine
+vyvanse-51b492965378b9555a2f0b26	41	47	ADR	shakes	vyvanse	vyvanse
+ofloxacin-5177691cac6af778c20367f0	80	84	ADR	pain	ofloxacin	ofloxacin
+seroquel-51cdc76753785f584a9ad67f	27	38	ADR	zombie-ness	seroquel	seroquel
+cipro-51c6fd5853785f584a9aa7cd	41	67	ADR	weird &amp; bizarre dreams	cipro	cipro
+fluoxetine-518616a0ac6a942006b3a8b4	60	88	ADR	feel like I can't even stand	fluoxetine	fluoxetine
+vyvanse-51afa3f45378b9555a2eeede	31	40	ADR	can't eat	vyvanse	vyvanse
+vyvanse-51b83ee45378b9555a2f1d2d	117	128	ADR	can't sleep	vyvanse	vyvanse
+vyvanse-51b9a1b65378b9555a2f24ef	2	15	ADR	haven't slept	vyvanse	vyvanse
+zyprexa-51cceee953785f584a9ad18d	41	58	ADR	just eat, and eat	zyprexa	zyprexa
+cipro-518ae213ac6ab35b4d47fb2d	21	27	ADR	 burns	cipro	cipro
+cipro-51d6e8a253785f584a9b114d	60	64	Indication	sick	cipro	cipro
+cipro-51d6e8a253785f584a9b114d	81	85	ADR	weak	cipro	cipro
+cymbalta-518f0fd4ac6ab35b4d482d85	63	73	ADR	withdrawal	cymbalta	cymbalta
+cymbalta-51b6f1c35378b9555a2f1620	77	88	ADR	withdrawals	cymbalta	cymbalta
+effexor-51c4f6fe53785f584a9a916b	28	57	ADR	coming off effexor is NOT fun	effexor	effexor
+effexor-51d1360e53785f584a9aebfb	17	49	ADR	coming off Effexor was the worst	effexor	effexor
+fluoxetine-517ba273ac6af778c20398c9	41	61	ADR	zap me of all energy	fluoxetine	fluoxetine
+fluoxetine-517ba273ac6af778c20398c9	120	136	ADR	not feeling good	fluoxetine	fluoxetine
+humira-51bf1eca5378b9555a2f3f04	66	75	ADR	fuzziness	humira	humira
+humira-51c3243953785f584a9a875c	72	76	ADR	sick	humira	humira
+humira-51c750a653785f584a9aab29	83	88	ADR	flare	humira	humira
+humira-51c750a653785f584a9aab29	123	128	Indication	rheum	humira	humira
+lamictal-51b1cb245378b9555a2efc15	38	43	ADR	Tired	lamictal	lamictal
+lamictal-51d3657b53785f584a9afd2b	46	53	ADR	wt loss	lamictal	lamictal
+lamotrigine-51d607f353785f584a9b0e23	0	18	ADR	Allergic reaction 	lamotrigine	lamotrigine
+levaquin-51c7b3b453785f584a9aaec0	19	27	ADR	poisoned	levaquin	levaquin
+levaquin-51c7b3b453785f584a9aaec0	60	64	ADR	pain	levaquin	levaquin
+lozenge-51ac203b53787e40790e09ad	38	42	ADR	numb	lozenge	lozenge
+lozenge-51b782555378b9555a2f1893	18	22	ADR	cold	lozenge	lozenge
+lozenge-51b8af655378b9555a2f2009	0	14	ADR	Almost vomited	lozenge	lozenge
+lozenge-51c8727c53785f584a9ab548	112	121	ADR	addiction	lozenge	lozenge
+metoprolol-518bd453ac6ab35b4d480740	60	67	ADR	sweatin	metoprolol	metoprolol
+nicotine-51a7a16d5378d08eec90776f	15	23	ADR	addicted	nicotine	nicotine
+olanzapine-51808ee8ac6af778c2041484	93	100	ADR	zombies	olanzapine	olanzapine
+paxil-518df094ac6ab35b4d4821c7	22	39	ADR	impossible to cry	paxil	paxil
+paxil-518fe823ac6ab35b4d483579	63	67	ADR	slow	paxil	paxil
+pristiq-51b15bf25378b9555a2ef930	83	108	ADR	don't feel fully human	pristiq	pristiq
+quetiapine-517f912dac6af778c203e2e5	22	28	ADR	energy	quetiapine	quetiapine
+quetiapine-517f912dac6af778c203e2e5	92	99	Indication	bipolar	quetiapine	quetiapine
+quetiapine-518aacb8ac6a942006b3ef46	27	38	ADR	withdrawals	quetiapine	quetiapine
+quetiapine-518aaec9ac6a942006b3ef68	0	15	ADR	Just about dead	quetiapine	quetiapine
+quetiapine-518e466aac6ab35b4d4824c1	24	30	ADR	weight	quetiapine	quetiapine
+quetiapine-51b1d9625378b9555a2efcec	0	21	ADR	Sleeping my life away	quetiapine	quetiapine
+quetiapine-51d7e79353785f584a9b14bd	53	68	ADR	sun sensitivity	quetiapine	quetiapine
+rivaroxaban-51b90ee25378b9555a2f228f	32	40	ADR	Headache	rivaroxaban	rivaroxaban
+rivaroxaban-51b90ee25378b9555a2f228f	72	81	ADR	back pain	rivaroxaban	rivaroxaban
+rivaroxaban-51b92e625378b9555a2f231e	32	41	ADR	Neck ache	rivaroxaban	rivaroxaban
+rivaroxaban-51b92e625378b9555a2f231e	52	65	ADR	shoulder ache	rivaroxaban	rivaroxaban
+rivaroxaban-51b92e625378b9555a2f231e	73	82	ADR	back pain	rivaroxaban	rivaroxaban
+seroquel-51b11dd25378b9555a2ef7fd	34	44	ADR	passes out	seroquel	seroquel
+seroquel-51b78c845378b9555a2f18c8	66	72	ADR	hungry	seroquel	seroquel
+seroquel-51d110af53785f584a9aeaa3	35	44	ADR	fucked up	seroquel	seroquel
+trazodone-517f580eac6af778c203e037	66	75	ADR	crazy ish	trazodone	Ambien
+trazodone-517f580eac6af778c203e037	79	85	Drug	Ambien	trazodone	trazodone
+trazodone-518850b9ac6a942006b3d27c	30	54	ADR	taken control of my eyes	trazodone	trazodone
+trazodone-51ad381a5378f924d02ef018	120	125	ADR	dopey	trazodone	trazodone
+trazodone-51ad50f65378f924d02ef0f4	47	71	ADR	barely keep my eyes open	trazodone	trazodone
+tysabri-51ad0b125378f924d02eee6c	134	139	ADR	veins	tysabri	tysabri
+tysabri-51ae834a5378f924d02efbf7	70	93	ADR	immune system went poof	tysabri	tysabri
+vyvanse-51adf7a95378f924d02ef5cc	28	37	ADR	jacked up	vyvanse	vyvanse
+vyvanse-51ae4c245378f924d02ef97f	7	16	ADR	irritable	vyvanse	vyvanse
+vyvanse-51aea5235378f924d02efd0b	54	66	ADR	not sleeping	vyvanse	vyvanse
+vyvanse-51aed37c5378f924d02eff13	44	53	ADR	stressful	vyvanse	vyvanse
+vyvanse-51af5e605378f924d02f03e5	37	44	ADR	sweatin	vyvanse	vyvanse
+vyvanse-51b03edf5378b9555a2ef257	2	16	ADR	lost 17 pounds	vyvanse	vyvanse
+vyvanse-51b0e09c5378b9555a2ef672	21	26	ADR	tweak	vyvanse	vyvanse
+vyvanse-51b0e0bf5378b9555a2ef675	21	29	ADR	Tweaking	vyvanse	vyvanse
+vyvanse-51b1af205378b9555a2efb4e	38	49	ADR	tweakin out	vyvanse	vyvanse
+vyvanse-51b4e4d55378b9555a2f0c85	23	26	ADR	hot	vyvanse	vyvanse
+vyvanse-51b62b885378b9555a2f11e7	58	70	ADR	TWERK ME OUT	vyvanse	vyvanse
+vyvanse-51b8caa25378b9555a2f20f3	59	65	ADR	addict	vyvanse	vyvanse
