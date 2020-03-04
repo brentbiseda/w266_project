@@ -7,6 +7,52 @@
 
 Training was performed using a 2080 TI on a desktop machine.  Each individual BERT model was trained for a total of 4 epochs and took approximately 1 hour per epoch.  In comparison, ELMO was trained for 5 epochs for a total of 10.9 hours or 2.2 hours per epoch.  
 
+# Results - 1 Epochs of Training
+
+|Model                       |Test Accuracy |Test Loss    |
+|:---------------------------|-------------:|------------:|
+|Naive Bayes                 |              |             |
+|Elmo                        |0.709426031   |             |
+|Bert Cased                  |     |   |
+|Bert Un-Cased               |    |  |
+|Biobert 1.0                 |     |   |
+|Biobert 1.1                 |    |     |
+|Clinical Bert (All Notes)   |     |   |
+|Clinical Bert (Discharge)   |     |    |
+|Clinical Biobert (All Notes)|    |   |
+|Clincial Biobert (Discharge)|     |   |
+
+# Results - 2 Epochs of Training
+
+|Model                       |Test Accuracy |Test Loss    |
+|:---------------------------|-------------:|------------:|
+|Naive Bayes                 |              |             |
+|Elmo                        |0.709426031   |             |
+|Bert Cased                  |0.8506305     |0.42128935   |
+|Bert Un-Cased               |0.81986755    |0.49602044   |
+|Biobert 1.0                 |0.8540899     |0.41489387   |
+|Biobert 1.1                 |0.85418296    |0.416389     |
+|Clinical Bert (All Notes)   |0.8540155     |0.41527405   |
+|Clinical Bert (Discharge)   |0.8549455     |0.4136234    |
+|Clinical Biobert (All Notes)|0.85462934    |0.41869983   |
+|Clincial Biobert (Discharge)|0.8552989     |0.41579548   |
+
+# Results - 3 Epochs of Training
+
+|Model                       |Test Accuracy |Test Loss    |
+|:---------------------------|-------------:|------------:|
+|Naive Bayes                 |              |             |
+|Elmo                        |0.709426031   |             |
+|Bert Cased                  |     |   |
+|Bert Un-Cased               |    |  |
+|Biobert 1.0                 |     |   |
+|Biobert 1.1                 |    |     |
+|Clinical Bert (All Notes)   |     |   |
+|Clinical Bert (Discharge)   |     |    |
+|Clinical Biobert (All Notes)|    |   |
+|Clincial Biobert (Discharge)|     |   |
+
+
 # Results - 4 Epochs of Training
 
 |Model                       |Test Accuracy |Test Loss    |
@@ -21,8 +67,6 @@ Training was performed using a 2080 TI on a desktop machine.  Each individual BE
 |Clinical Bert (Discharge)   |0.8887959     |0.52854675   |
 |Clinical Biobert (All Notes)|0.8885355     |0.52100116   |
 |Clincial Biobert (Discharge)|0.8883867     |0.53031653   |
-
-
 
 # Installation Instructions  
 
