@@ -3,27 +3,6 @@
 ## Brent Biseda and Katie Mo 
 ## Spring 2020 
 
-# Methods
-
-Training was performed using a 2080 TI on a desktop machine.  Each individual BERT model was trained for a total of 4 epochs and took approximately 1 hour per epoch.  In comparison, ELMO was trained for 5 epochs for a total of 10.9 hours or 2.2 hours per epoch.  
-
-# Results - 4 Epochs of Training
-
-|Model                       |Test Accuracy |Test Loss    |
-|:---------------------------|-------------:|------------:|
-|Naive Bayes                 |              |             |
-|Elmo                        |0.709426031   |             |
-|Bert Cased                  |0.88762414    |0.5104096    |
-|Bert Un-Cased               |0.8406242     |0.73746926   |
-|Biobert 1.0                 |0.88749397    |0.5038793    |
-|Biobert 1.1                 |0.87720865    |0.4922997    |
-|Clinical Bert (All Notes)   |0.8883867     |0.5149438    |
-|Clinical Bert (Discharge)   |0.8887959     |0.52854675   |
-|Clinical Biobert (All Notes)|0.8885355     |0.52100116   |
-|Clincial Biobert (Discharge)|0.8883867     |0.53031653   |
-
-
-
 # Installation Instructions  
 
 ## CUDA Install  
