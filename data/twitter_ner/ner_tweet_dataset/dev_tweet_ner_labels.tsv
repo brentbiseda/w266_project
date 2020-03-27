@@ -50,7 +50,7 @@ people	O
 online	O
 who	O
 say	O
-they‚Äôve	O
+theyíve	O
 stacked	B
 on	I
 the	I
@@ -386,6 +386,7 @@ on	O
 it	O
 .	O
 .	O
+"	O"
 @	O
 BeyondMeds	O
 @	O
@@ -554,7 +555,7 @@ nej	O
 .	O
 md	O
 /	O
-11MAcpw¬†	O
+11MAcpw†	O
 
 @	O
 msjuju8	O
@@ -651,7 +652,7 @@ ow	O
 .	O
 ly	O
 /	O
-mxGwz¬†	O
+mxGwz†	O
 
 Medical	O
 professionals	O
@@ -771,7 +772,7 @@ lati	O
 .	O
 ms	O
 /	O
-m9ILe¬†	O
+m9ILe†	O
 
 Liquid	O
 fluoxetine	O
@@ -824,6 +825,7 @@ hard	I
 
 @	O
 geordiedavid	O
+"	O"
 I've	O
 been	O
 holding	O
@@ -837,6 +839,8 @@ while	O
 still	O
 nothing	O
 .	O
+"	O"
+"	O"
 JM	O
 
 Dunno	O
@@ -1058,7 +1062,7 @@ bit	O
 .	O
 ly	O
 /	O
-19O0srA¬†	O
+19O0srA†	O
 
 Trazodone	O
 is	O
@@ -1107,7 +1111,7 @@ manfully	O
 suffer	O
 through	O
 nicotine	O
-withdrawal‚Äîall	O
+withdrawalóall	O
 for	O
 you	O
 #	O
@@ -1343,7 +1347,7 @@ amgen	O
 -	O
 enbrel	O
 -	O
-patent¬†‚Ä¶	O
+patent†Ö	O
 
 Gonna	O
 start	O
@@ -1436,7 +1440,7 @@ bit	O
 .	O
 ly	O
 /	O
-13VUVdJ¬†	O
+13VUVdJ†	O
 
 @	O
 LithiumLibGirl	O
@@ -1621,6 +1625,8 @@ at	O
 30	O
 :	O
 sleeping	O
+"	O"
+"	O"
 Me	O
 at	O
 12	O
@@ -1701,7 +1707,7 @@ astrazeneca	O
 -	O
 diabetes	O
 -	O
-idUSBRE95I06Y20130619¬†‚Ä¶	O
+idUSBRE95I06Y20130619†Ö	O
 
 If	O
 Prozac	O
@@ -1870,7 +1876,7 @@ The	O
 diagnosis	O
 of	O
 depression	O
-didn‚Äôt	O
+didnít	O
 become	O
 popular	O
 in	O
@@ -1989,7 +1995,7 @@ the	O
 med	O
 ?	O
 
-‚Äú	O
+ì	O
 @	O
 UberFacts	O
 :	O
@@ -2012,14 +2018,14 @@ found	O
 in	O
 Prozac	O
 .	O
-‚Äù	O
+î	O
 @	O
 ElizabethJeanB	O
 
 FDA	O
 Approval	O
 for	O
-Brisdelle‚Ñ¢	O
+Brisdelleô	O
 (	O
 Paroxetine	O
 )	O
@@ -2296,7 +2302,7 @@ critically	O
 .	O
 9	O
 .	O
-aspx¬†‚Ä¶	O
+aspx†Ö	O
 
 09	O
 .	O
@@ -2486,7 +2492,7 @@ a	O
 vyvanse	O
 prescription	O
 
-‚Äú	O
+ì	O
 @	O
 UberFacts	O
 :	O
@@ -2509,7 +2515,7 @@ found	O
 in	O
 Prozac	O
 .	O
-‚Äù	O
+î	O
 Goodbye	O
 happy	O
 pills	O
@@ -2632,6 +2638,7 @@ approved	O
 
 @	O
 jimrome	O
+"	O"
 Mom	O
 texted	O
 Mark	O
@@ -2640,27 +2647,29 @@ HollyWood	O
 .	O
 .	O
 .	O
+"	O"
 I	O
 still	O
 have	O
 it	O
 in	O
 the	O
-air	O
+"air	O"
 Who	O
 Ya	O
 Got	O
 ?	O
+"	O"
 #	O
-SmackOff	O
+"SmackOff	O"
 #	O
-Lozenge	O
+"Lozenge	O"
 #	O
-siri	O
+"siri	O"
 #	O
-JStew	O
+"JStew	O"
 #	O
-MyBitchWife	O
+"MyBitchWife	O"
 #	O
 SmackOff	O
 
@@ -3075,7 +3084,7 @@ aph	O
 .	O
 abstract	O
 .	O
-html¬†‚Ä¶	O
+html†Ö	O
 
 @	O
 evann	O
@@ -3165,213 +3174,4 @@ hungrier	B
 .	O
 #	O
 bipolarlifestylechoice	O
-
-Was	O
-thinking	O
-of	O
-taking	O
-a	O
-break	O
-from	O
-Tysabri	O
-,	O
-but	O
-I	O
-just	O
-ordered	O
-a	O
-medical	O
-tag	O
-stating	O
-I'm	O
-on	O
-it	O
-so	O
-I	O
-guess	O
-I	O
-can't	O
-ever	O
-quit	O
-now	O
-!	O
-Óêï	O
-
-@	O
-TheHappiePolock	O
-dude	O
-has	O
-not	O
-eaten	O
-a	O
-cheeseburger	O
-since	O
-high	O
-school	O
-,	O
-so	O
-I	O
-doubt	O
-he	O
-has	O
-nicotine	O
-problems	O
-lol	O
-
-Writing	O
-notes	O
-to	O
-myself	O
-to	O
-remind	O
-myself	O
-Trazodone	O
-causes	O
-priapism	O
-.	O
-Pharmacology	O
-is	O
-cracking	O
-me	O
-up	O
-.	O
-pic	O
-.	O
-twitter	O
-.	O
-com	O
-/	O
-ecndHFMf9P	O
-
-I	O
-wish	O
-I	O
-could	B
-be	I
-tired	I
-.	O
-Shouldn't	O
-have	O
-taken	O
-the	O
-vyvanse	O
-.	O
-Now	O
-I'm	O
-never	B
-sleeping	I
-.	O
-
-OK	O
-,	O
-I'm	O
-pretty	O
-sure	O
-that	O
-missing	O
-2	O
-doses	O
-of	O
-fluoxetine	O
-(	O
-pure	O
-disorderliness	O
-/	O
-schedule	O
-fail	O
-)	O
-was	O
-responsible	O
-for	O
-my	O
-joint	B
-pain	I
-.	O
-
-How	O
-do	O
-guys	O
-ejaculate	B
-on	O
-paxil	O
-?	O
-?	O
-#	O
-antidepressants	B
-
-I	O
-suggest	O
-never	O
-stop	O
-taking	O
-Effexor	O
-abruptly	O
-because	O
-you	O
-will	O
-feel	B
-like	I
-you're	I
-on	I
-your	I
-death	I
-bed	I
-
-@	O
-Azlemed	O
-first	O
-two	O
-weeks	O
-of	O
-olanzapine	O
-v	O
-drowsy	B
-.	O
-weight	B
-gain	I
-was	O
-an	O
-issue	O
-.	O
-Great	O
-for	O
-my	O
-anxiety	B
-though	O
-.	O
-
-@	O
-DoctorChristian	O
-I	O
-think	O
-some	O
-people	O
-will	O
-try	O
-anything	O
-sometimes	O
-!	O
-I	O
-have	O
-with	O
-my	O
-severe	O
-psoriasis	B
-!	O
-finally	O
-awaiting	O
-Humira	O
-injection	O
-anydayx	O
-
-Best	O
-dream	O
-ever	O
-last	O
-night	O
-.	O
-Thank	O
-you	O
-traZODone	O
-.	O
 

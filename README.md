@@ -7,6 +7,57 @@
 
 Training was performed using a 2080 TI on a desktop machine.  Each individual BERT model was trained for a total of 4 epochs and took approximately 1 hour per epoch.  In comparison, ELMO was trained for 5 epochs for a total of 10.9 hours or 2.2 hours per epoch.  
 
+# Results for NER Analysis Task
+
+# Results - Comparison of Baseline Results
+
+|Model                         |Test Accuracy       |
+|:-----------------------------|-------------------:|
+|Most Common Class             |
+|Naive Bayes                   |
+|ELMo with Logistic Regression |
+|BERT Cased with Logistic Reg  |
+
+# Results - Comparison of Number of Epochs of Training for Test Set Accuracy
+
+|Model                       |1 Epoch       |2 Epochs      |3 Epochs      |4 Epochs      |
+|:---------------------------|-------------:|-------------:|-------------:|-------------:|
+|BERT Cased                  |
+|BERT Un-Cased               |
+|BioBERT 1.0                 |
+|BioBERT 1.1                 |
+|Clinical BERT (All Notes)   |
+|Clinical BERT (Discharge)   |
+|Clinical BioBERT (All Notes)|
+|Clincial BioBERT (Discharge)|
+
+# Results - Comparison of Number of Epochs of Training for Test Set Loss
+
+|Model                       |1 Epoch      |2 Epochs     |3 Epochs     |4 Epochs     |
+|:---------------------------|------------:|------------:|------------:|------------:|
+|BERT Cased                  |
+|BERT Un-Cased               |
+|BioBERT 1.0                 |
+|BioBERT 1.1                 |
+|Clinical BERT (All Notes)   |
+|Clinical BERT (Discharge)   |
+|Clinical BioBERT (All Notes)|
+|Clincial BioBERT (Discharge)|
+
+# Run NER Analysis Task
+
+## Bio bert 1.1
+
+### Run Training for NER Task
+
+python run_ner.py --do_train=true --do_eval=true --num_train_epochs=4 --do_lower_case=False --vocab_file=../model/biobert_v1.1_pubmed/vocab.txt --bert_config_file=../model/biobert_v1.1_pubmed/bert_config.json  --init_checkpoint=../model/biobert_v1.1_pubmed/model.ckpt-1000000 --data_dir=../datasets/NER/ --output_dir=../output/NER/biobert_1.1_finetuned
+
+### Run Prediction for Sentiment Analysis on Test Set  
+
+python run_classifier.py --do_train=false --do_predict=true --vocab_file=../model/biobert_v1.1_pubmed/vocab.txt --bert_config_file=../model/biobert_v1.1_pubmed/bert_config.json --task_name=ADR --do_lower_case=False --init_checkpoint=../output/ADR/biobert_1.1_finetuned/model.ckpt-1479 --data_dir=../datasets/ADR/ --output_dir=../output/ADR/biobert_1.1_finetuned
+
+
+
 # Results for Sentiment Analysis Task
 
 # Results - Comparison of Baseline Results
