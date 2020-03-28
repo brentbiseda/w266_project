@@ -2,7 +2,6 @@ tensorflow-gpu==1.15.0   # GPU version of TensorFlow >= 1.11.0. (should be under
 
 # To evaluate RE answers :
 sklearn
-tf_metrics
 pandas==0.23
 
 
