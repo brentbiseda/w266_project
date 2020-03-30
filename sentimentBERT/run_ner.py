@@ -145,11 +145,9 @@ class DataProcessor(object):
     def _read_data(cls, input_file):
         """Reads a BIO data."""
         with tf.gfile.Open(input_file, "r") as f:
-		    #reader = csv.reader(f, delimiter='\t', quotechar='"')
             lines = []
             words = []
             labels = []
-            #reader = csv.reader(f, delimiter='\t', quotechar="'")
             for line in f:
                 contends = line.strip()
                 if len(contends) == 0:
@@ -446,13 +444,16 @@ def model_fn_builder(bert_config, num_labels, init_checkpoint, learning_rate,
                 predictions = tf.argmax(logits, axis=-1, output_type=tf.int32)
                 precision = tf_metrics.precision(label_ids,predictions,7,[1,2],average="macro")
                 recall = tf_metrics.recall(label_ids,predictions,7,[1,2],average="macro")
+                accuracy = tf.metrics.accuracy(label_ids, predictions)
+                loss = tf.metrics.mean(per_example_loss)
                 f = tf_metrics.f1(label_ids,predictions,7,[1,2],average="macro")
                 #
                 return {
                     "eval_precision":precision,
                     "eval_recall":recall,
                     "eval_f": f,
-                    #"eval_loss": loss,
+                    "eval_loss": loss,
+                    "eval_accuracy": accuracy
                 }
             eval_metrics = (metric_fn, [per_example_loss, label_ids, logits])
             # eval_metrics = (metric_fn, [label_ids, logits])

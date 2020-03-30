@@ -13,50 +13,118 @@ Training was performed using a 2080 TI on a desktop machine.  Each individual BE
 
 |Model                         |Test Accuracy       |
 |:-----------------------------|-------------------:|
-|Most Common Class             |
-|Naive Bayes                   |
-|ELMo with Logistic Regression |
-|BERT Cased with Logistic Reg  |
+|Most Common Class             |0.938               |
+|Naive Bayes                   |                    |
+|ELMo with Logistic Regression |0.938               |
+|BERT Cased with Logistic Reg  |0.948               |
 
 # Results - Comparison of Number of Epochs of Training for Test Set Accuracy
 
 |Model                       |1 Epoch       |2 Epochs      |3 Epochs      |4 Epochs      |
 |:---------------------------|-------------:|-------------:|-------------:|-------------:|
-|BERT Cased                  |
-|BERT Un-Cased               |
-|BioBERT 1.0                 |
-|BioBERT 1.1                 |
-|Clinical BERT (All Notes)   |
-|Clinical BERT (Discharge)   |
-|Clinical BioBERT (All Notes)|
-|Clincial BioBERT (Discharge)|
+|BERT Cased                  |0.9903476     |0.9907439     |0.9906307     |0.99102694    |
+|BERT Un-Cased               |0.98737544    |0.9908005     |0.9908571     |0.99057406    |
+|BioBERT 1.0                 |0.9904608     |0.9907439     |0.9909703     |0.990942      |
+|BioBERT 1.1                 |0.9902627     |0.9907722     |0.99088544    |0.9907722     |
+|Clinical BERT (All Notes)   |0.9904608     |0.99091375    |0.9908005     |0.9924989     |
+|Clinical BERT (Discharge)   |0.99057406    |0.99071556    |0.9907722     |0.99142325    |
+|Clinical BioBERT (All Notes)|0.99051744    |0.9907722     |0.99091375    |0.9917912     |
+|Clincial BioBERT (Discharge)|0.9904042     |0.99091375    |0.99091375    |0.9908005     |
 
 # Results - Comparison of Number of Epochs of Training for Test Set Loss
 
 |Model                       |1 Epoch      |2 Epochs     |3 Epochs     |4 Epochs     |
 |:---------------------------|------------:|------------:|------------:|------------:|
-|BERT Cased                  |
-|BERT Un-Cased               |
-|BioBERT 1.0                 |
-|BioBERT 1.1                 |
-|Clinical BERT (All Notes)   |
-|Clinical BERT (Discharge)   |
-|Clinical BioBERT (All Notes)|
-|Clincial BioBERT (Discharge)|
+|BERT Cased                  |0.05552838   |0.038011767  |0.040655505  |0.028892228  |
+|BERT Un-Cased               |0.062448576  |0.039479088  |0.037969436  |0.04100074   |
+|BioBERT 1.0                 |0.04938845   |0.03651569   |0.03652621   |0.031140856  |
+|BioBERT 1.1                 |0.056436066  |0.044782937  |0.042487428  |0.03401301   |
+|Clinical BERT (All Notes)   |0.053461507  |0.036061972  |0.036518622  |0.024716122  |
+|Clinical BERT (Discharge)   |0.03896644   |0.036543943  |0.0359913    |0.029238742  |
+|Clinical BioBERT (All Notes)|0.049856387  |0.04229529   |0.03812202   |0.030528314  |
+|Clincial BioBERT (Discharge)|0.049564358  |0.036872145  |0.037577145  |0.030808203  |
 
 # Run NER Analysis Task
+
+## Clinical bert - Biobert_pretrain_output_all_notes_150000
+
+### Run Training for Sentiment Analysis
+
+python run_ner.py --do_train=true --num_train_epochs=4 --vocab_file=../model/biobert_pretrain_output_all_notes_150000/vocab.txt --bert_config_file=../model/biobert_pretrain_output_all_notes_150000/bert_config.json --do_lower_case=False --init_checkpoint=../model/biobert_pretrain_output_all_notes_150000/model.ckpt-150000 --data_dir=../datasets/NER/ --output_dir=../output/NER/biobert_pretrain_output_all_notes_150000_finetuned
+
+### Prediction on Test Set
+
+python run_ner.py --do_train=false --do_eval=true --vocab_file=../model/biobert_pretrain_output_all_notes_150000/vocab.txt --bert_config_file=../model/biobert_pretrain_output_all_notes_150000/bert_config.json --do_lower_case=False --init_checkpoint=../output/NER/biobert_pretrain_output_all_notes_150000_finetuned/model.ckpt-99 --data_dir=../datasets/NER/ --output_dir=../output/NER/biobert_pretrain_output_all_notes_150000_finetuned
+
+## Clinical bert - Biobert_pretrain_output_disch_100000
+
+### Run Training for Sentiment Analysis
+
+python run_ner.py --do_train=true --num_train_epochs=4 --vocab_file=../model/biobert_pretrain_output_disch_100000/vocab.txt --bert_config_file=../model/biobert_pretrain_output_disch_100000/bert_config.json --do_lower_case=False --init_checkpoint=../model/biobert_pretrain_output_disch_100000/model.ckpt-100000 --data_dir=../datasets/NER/ --output_dir=../output/NER/biobert_pretrain_output_disch_100000_finetuned
+
+### Prediction on Test Set
+
+python run_ner.py --do_train=false --do_eval=true --vocab_file=../model/biobert_pretrain_output_disch_100000/vocab.txt --bert_config_file=../model/biobert_pretrain_output_disch_100000/bert_config.json --do_lower_case=False --init_checkpoint=../output/NER/biobert_pretrain_output_disch_100000_finetuned/model.ckpt-99 --data_dir=../datasets/NER/ --output_dir=../output/NER/biobert_pretrain_output_disch_100000_finetuned
+
+## Clinical bert - bert_pretrain_output_all_notes_150000
+
+### Run Training for Sentiment Analysis
+
+python run_ner.py --do_train=true --num_train_epochs=4 --vocab_file=../model/bert_pretrain_output_all_notes_150000/vocab.txt --bert_config_file=../model/bert_pretrain_output_all_notes_150000/bert_config.json --do_lower_case=False --init_checkpoint=../model/bert_pretrain_output_all_notes_150000/model.ckpt-150000 --data_dir=../datasets/NER/ --output_dir=../output/NER/bert_pretrain_output_all_notes_150000_finetuned
+
+### Prediction on Test Set
+
+python run_ner.py --do_train=false --do_eval=true --vocab_file=../model/bert_pretrain_output_all_notes_150000/vocab.txt --bert_config_file=../model/bert_pretrain_output_all_notes_150000/bert_config.json --do_lower_case=False --init_checkpoint=../output/NER/bert_pretrain_output_all_notes_150000_finetuned/model.ckpt-99 --data_dir=../datasets/NER/ --output_dir=../output/NER/bert_pretrain_output_all_notes_150000_finetuned
+
+## Clinical bert - bert_pretrain_output_disch_100000
+
+### Run Training for Sentiment Analysis
+
+python run_ner.py --do_train=true --num_train_epochs=4 --vocab_file=../model/bert_pretrain_output_disch_100000/vocab.txt --bert_config_file=../model/bert_pretrain_output_disch_100000/bert_config.json --do_lower_case=False --init_checkpoint=../model/bert_pretrain_output_disch_100000/model.ckpt-100000 --data_dir=../datasets/NER/ --output_dir=../output/NER/bert_pretrain_output_disch_100000_finetuned
+
+### Prediction on Test Set
+
+python run_ner.py --do_train=false --do_eval=true --vocab_file=../model/bert_pretrain_output_disch_100000/vocab.txt --bert_config_file=../model/bert_pretrain_output_disch_100000/bert_config.json --do_lower_case=False --init_checkpoint=../output/NER/bert_pretrain_output_disch_100000_finetuned/model.ckpt-99 --data_dir=../datasets/NER/ --output_dir=../output/NER/bert_pretrain_output_disch_100000_finetuned
+
+## bert Un-Cased
+
+### Run Training for Sentiment Analysis
+
+python run_ner.py --do_train=true --num_train_epochs=4 --vocab_file=../model/uncased_L-12_H-768_A-12/vocab.txt --bert_config_file=../model/uncased_L-12_H-768_A-12/bert_config.json --do_lower_case=True --init_checkpoint=../model/uncased_L-12_H-768_A-12/bert_model.ckpt --data_dir=../datasets/NER/ --output_dir=../output/NER/bert_uncased_finetuned
+
+### Run Prediction for Sentiment Analysis on Test Set  
+
+python run_ner.py --do_train=false --do_eval=true --vocab_file=../model/uncased_L-12_H-768_A-12/vocab.txt --bert_config_file=../model/uncased_L-12_H-768_A-12/bert_config.json --do_lower_case=False --init_checkpoint=../output/NER/bert_uncased_finetuned/model.ckpt-99 --data_dir=../datasets/NER/ --output_dir=../output/NER/bert_uncased_finetuned
+
+## bert Cased
+
+### Run Training for Sentiment Analysis
+
+python run_ner.py --do_train=true --num_train_epochs=4 --vocab_file=../model/cased_L-12_H-768_A-12/vocab.txt --bert_config_file=../model/cased_L-12_H-768_A-12/bert_config.json --do_lower_case=False --init_checkpoint=../model/cased_L-12_H-768_A-12/bert_model.ckpt --data_dir=../datasets/NER/ --output_dir=../output/NER/bert_cased_finetuned
+
+### Run Prediction for Sentiment Analysis on Test Set  
+
+python run_ner.py --do_train=false --do_eval=true --vocab_file=../model/cased_L-12_H-768_A-12/vocab.txt --bert_config_file=../model/cased_L-12_H-768_A-12/bert_config.json --do_lower_case=False --init_checkpoint=../output/NER/bert_cased_finetuned/model.ckpt-99 --data_dir=../datasets/NER/ --output_dir=../output/NER/bert_cased_finetuned
+
+## Bio bert 1.0
+
+### Run Training for Sentiment Analysis
+
+python run_ner.py --do_train=true --num_train_epochs=4 --do_lower_case=False --vocab_file=../model/biobert_v1.0_pubmed_pmc/vocab.txt --bert_config_file=../model/biobert_v1.0_pubmed_pmc/bert_config.json --init_checkpoint=../model/biobert_v1.0_pubmed_pmc/biobert_model.ckpt --data_dir=../datasets/NER/ --output_dir=../output/NER/biobert_1.0_finetuned
+
+### Run Prediction for Sentiment Analysis on Test Set  
+
+python run_ner.py --do_train=false --do_eval=true --vocab_file=../model/biobert_v1.0_pubmed_pmc/vocab.txt --bert_config_file=../model/biobert_v1.0_pubmed_pmc/bert_config.json --do_lower_case=False --init_checkpoint=../output/NER/biobert_1.0_finetuned/model.ckpt-99 --data_dir=../datasets/NER/ --output_dir=../output/NER/biobert_1.0_finetuned
 
 ## Bio bert 1.1
 
 ### Run Training for NER Task
 
-python run_ner.py --do_train=true --do_eval=true --num_train_epochs=4 --do_lower_case=False --vocab_file=../model/biobert_v1.1_pubmed/vocab.txt --bert_config_file=../model/biobert_v1.1_pubmed/bert_config.json  --init_checkpoint=../model/biobert_v1.1_pubmed/model.ckpt-1000000 --data_dir=../datasets/NER/ --output_dir=../output/NER/biobert_1.1_finetuned
+python run_ner.py --do_train=true --num_train_epochs=4 --do_lower_case=False --vocab_file=../model/biobert_v1.1_pubmed/vocab.txt --bert_config_file=../model/biobert_v1.1_pubmed/bert_config.json  --init_checkpoint=../model/biobert_v1.1_pubmed/model.ckpt-1000000 --data_dir=../datasets/NER/ --output_dir=../output/NER/biobert_1.1_finetuned
 
 ### Run Prediction for Sentiment Analysis on Test Set  
 
-python run_classifier.py --do_train=false --do_predict=true --vocab_file=../model/biobert_v1.1_pubmed/vocab.txt --bert_config_file=../model/biobert_v1.1_pubmed/bert_config.json --task_name=ADR --do_lower_case=False --init_checkpoint=../output/ADR/biobert_1.1_finetuned/model.ckpt-1479 --data_dir=../datasets/ADR/ --output_dir=../output/ADR/biobert_1.1_finetuned
-
-
+python run_ner.py --do_train=false --do_eval=true --vocab_file=../model/biobert_v1.1_pubmed/vocab.txt --bert_config_file=../model/biobert_v1.1_pubmed/bert_config.json --do_lower_case=False --init_checkpoint=../output/NER/biobert_1.1_finetuned/model.ckpt-99 --data_dir=../datasets/NER/ --output_dir=../output/NER/biobert_1.1_finetuned
 
 # Results for Sentiment Analysis Task
 
