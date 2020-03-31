@@ -1,6 +1,6 @@
 # Sentiment Analysis Commands  
 
-#Prolonged Training on Clinical BERT Discharge (10 Epochs)
+# Prolonged Training on Clinical BERT Discharge (10 Epochs)
 
 ### Run Training for Sentiment Analysis
 
