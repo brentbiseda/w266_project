@@ -6,9 +6,9 @@
 # Methods
 
 3 Different tasks were compared.
-- Sentiment Analysis of Drug ADR
-- Detection of ADR
-- Named entity recogntion of ADR
+- [Sentiment Analysis of Drug ADR](./sentiment.md)
+- [Detection of ADR](./adr.md)
+- [Named entity recogntion of ADR](./ner.md)
 
 We compare various baselines to 8 different BERT models that are finetuned between 1-4 epochs.  We report the test set accuracy and loss.
 
