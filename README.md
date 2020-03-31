@@ -12,6 +12,26 @@
 
 We compare various baselines to 8 different BERT models that are finetuned between 1-4 epochs.  We report the test set accuracy and loss.
 
+# Installation    
+
+## CUDA Install  
+
+cuda_10.0.130_411.31_win10.exe
+
+## Pip install  
+
+pip install --upgrade pip
+pip install -r requirements.txt
+
+# Start up Tensorboard and set directory
+
+tensorboard --logdir ../output
+
+## Go to Tensorboard location  
+
+http://localhost:6006
+
+
 # Results for Sentiment Analysis Task
 
 # Results - Comparison of Baseline Results
@@ -131,23 +151,3 @@ We compare various baselines to 8 different BERT models that are finetuned betwe
 |Clinical BERT (Discharge)   |0.03896644   |0.036543943  |0.0359913    |0.029238742  |
 |Clinical BioBERT (All Notes)|0.049856387  |0.04229529   |0.03812202   |0.030528314  |
 |Clincial BioBERT (Discharge)|0.049564358  |0.036872145  |0.037577145  |0.030808203  |
-
-
-# Installation Instructions  
-
-## CUDA Install  
-
-cuda_10.0.130_411.31_win10.exe
-
-## Pip install  
-
-pip install --upgrade pip
-pip install -r requirements.txt
-
-# Start up Tensorboard and set directory
-
-tensorboard --logdir ../output
-
-## Go to Tensorboard location  
-
-http://localhost:6006
