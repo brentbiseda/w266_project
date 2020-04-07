@@ -6,7 +6,7 @@
 
 ### Run Training for ADR
 
-python run_classifier.py --do_train=true --num_train_epochs=4 --vocab_file=../model/bert_pretrain_output_all_notes_150000/vocab.txt --bert_config_file=../model/bert_pretrain_output_all_notes_150000/bert_config.json --task_name=ADR --do_lower_case=False --init_checkpoint=../model/bert_pretrain_output_all_notes_150000/model.ckpt-150000 --data_dir=../datasets/ADR/ --output_dir=../output/ADR/bert_pretrain_output_all_notes_150000_finetuned
+python run_classifier.py --do_train=true --num_train_epochs=3 --vocab_file=../model/bert_pretrain_output_all_notes_150000/vocab.txt --bert_config_file=../model/bert_pretrain_output_all_notes_150000/bert_config.json --task_name=ADR --do_lower_case=False --init_checkpoint=../model/bert_pretrain_output_all_notes_150000/model.ckpt-150000 --data_dir=../datasets/ADR/ --output_dir=../output/ADR/bert_pretrain_output_all_notes_150000_finetuned
 
 ### Prediction on Test Set
 

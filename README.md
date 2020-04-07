@@ -79,7 +79,7 @@ http://localhost:6006
 
 # Results for Presence of ADR Task
 
-# Results - Comparison of Baseline Results
+# Results - Comparison of Oversampled Baseline Results
 
 |Model                         |Test Accuracy       |
 |:-----------------------------|-------------------:|
@@ -88,7 +88,7 @@ http://localhost:6006
 |ELMo with Logistic Regression |0.828537            |
 |BERT Cased with Logistic Reg  |0.827338            |
 
-# Results - Comparison of Number of Epochs of Training for Test Set Accuracy
+# Results - Comparison of Number of Epochs of Training for Oversampled Test Set Accuracy
 
 |Model                       |1 Epoch       |2 Epochs      |3 Epochs      |4 Epochs      |
 |:---------------------------|-------------:|-------------:|-------------:|-------------:|
@@ -114,6 +114,32 @@ http://localhost:6006
 |Clinical BioBERT (All Notes)|0.41861635   |0.5948032    |0.72895783   |0.751109     |
 |Clincial BioBERT (Discharge)|0.35678673   |0.5739808    |0.6313981    |0.69853044   |
 
+# Results - Comparison of 3 Epochs of Training for Test Set Accuracy
+
+|Model                       |Imbalanced    |Undersampled  |Oversampled   |
+|:---------------------------|-------------:|-------------:|-------------:|
+|BERT Cased                  |0.88129497    |0.8501199     |0.88968825    |
+|BERT Un-Cased               |0.90407676    |0.8405276     |0.9088729     |
+|BioBERT 1.0                 |0.88968825    |0.80695444    |0.90527576    |
+|BioBERT 1.1                 |0.88968825    |0.8345324     |0.91007197    |
+|Clinical BERT (All Notes)   |0.88968825    |0.82254195    |0.91366905    |
+|Clinical BERT (Discharge)   |0.9004796     |0.8057554     |0.91247004    |
+|Clinical BioBERT (All Notes)|0.90527576    |0.7721822     |0.9160671     |
+|Clincial BioBERT (Discharge)|0.9088729     |0.79856116    |0.91846526    |
+
+# Results - Comparison of 3 of Epochs of Training for Test Set Loss
+
+|Model                       |Imbalanced   |Undersampled |Oversampled  |
+|:---------------------------|------------:|------------:|------------:|
+|BERT Cased                  |0.26972473   |0.37550116   |0.6920256    |
+|BERT Un-Cased               |0.28697187   |0.33705306   |0.6619164    |
+|BioBERT 1.0                 |0.34911788   |0.63168806   |0.50790715   |
+|BioBERT 1.1                 |0.35104433   |0.5600712    |0.7240624    |
+|Clinical BERT (All Notes)   |0.34974724   |0.62214446   |0.6554421    |
+|Clinical BERT (Discharge)   |0.2927498    |0.5593708    |0.5021085    |
+|Clinical BioBERT (All Notes)|0.3171341    |0.73051125   |0.72895783   |
+|Clincial BioBERT (Discharge)|0.336135     |0.75358605   |0.6313981    |
+
 
 # Results for NER Analysis Task
 
@@ -125,6 +151,26 @@ http://localhost:6006
 |Naive Bayes                   |                    |
 |ELMo with Logistic Regression |0.938               |
 |BERT Cased with Logistic Reg  |0.948               |
+
+|Model                         |F Score             |
+|:-----------------------------|-------------------:|
+|Most Common Class             |0.242066915923689   |
+|Naive Bayes                   |                    |
+|ELMo with Logistic Regression |0.24209012464046023 |
+|BERT Cased with Logistic Reg  |0.5230219018127863  |
+
+# Results - Comparison of Number of Epochs of Training for F Score on Test Set 
+
+|Model                       |1 Epoch       |2 Epochs      |3 Epochs      |4 Epochs      |
+|:---------------------------|-------------:|-------------:|-------------:|-------------:|
+|BERT Cased                  |0.0           |0.0           |0.0           |0.062200956   |
+|BERT Un-Cased               |0.0           |0.0           |0.023337934   |0.0           |
+|BioBERT 1.0                 |0.0           |0.0           |0.0           |0.007999999   |
+|BioBERT 1.1                 |0.0           |0.0           |0.0           |0.0           |
+|Clinical BERT (All Notes)   |0.0           |0.010362694   |0.0           | 0.3320488    | 
+|Clinical BERT (Discharge)   |0.0           |0.0           |0.0           |0.14157107    |
+|Clinical BioBERT (All Notes)|0.0           |0.0           | 0.0          |0.16872428    |
+|Clincial BioBERT (Discharge)|0.0           |0.0           |0.0           | 0.010362694  |
 
 # Results - Comparison of Number of Epochs of Training for Test Set Accuracy
 
