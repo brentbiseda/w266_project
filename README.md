@@ -1,6 +1,6 @@
 # W266 Natural Language Processing - Final Project
 
-## Enhancing Pharmacovigilance with Drug Reviews and Social Media
+### Enhancing Pharmacovigilance with Drug Reviews and Social Media
 
 ### Brent Biseda and Katie Mo
 ### Spring 2020
@@ -19,10 +19,10 @@ We focused on three tasks related to pharmacovigilance:
 
 **Deliverables**
 
-- [Final Project Paper](./W266 Final Project Paper.pdf)
-- [Final Project Presentation](./W266 Final Project Presentation Slides.pdf)
+- [Final Project Paper](https://github.com/brentbiseda/w266_project/blob/master/W266%20Final%20Project%20Paper.pdf)
+- [Final Project Presentation](https://github.com/brentbiseda/w266_project/blob/master/W266%20Final%20Project%20Presentation%20Slides.pdf)
 
-### Installation    
+## Installation    
 
 #### CUDA Install  
 
