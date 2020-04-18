@@ -11,8 +11,6 @@ This paper explores whether the use of drug reviews and social media could be le
 
 **Tasks**
 
-We focused on three tasks related to pharmacovigilance:
-
 - [Sentiment Classification of Drug Reviews](./task1_sentiment)
 - [ADR Classification of Tweets](./task2_adr)
 - [Named entity recognition of ADRs in Tweets](./task3_ner)
@@ -33,7 +31,7 @@ cuda_10.0.130_411.31_win10.exe
 pip install --upgrade pip
 pip install -r requirements.txt
 
-### Start up Tensorboard and set directory
+#### Start up Tensorboard and set directory
 
 tensorboard --logdir ../output
 
