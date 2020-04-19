@@ -1,6 +1,6 @@
 # W266 Natural Language Processing - Final Project
 
-### Enhancing Pharmacovigilance with Drug Reviews and Social Media
+## Enhancing Pharmacovigilance with Drug Reviews and Social Media
 
 ### Brent Biseda and Katie Mo
 ### Spring 2020
@@ -19,6 +19,19 @@ This paper explores whether the use of drug reviews and social media could be le
 
 - [Final Project Paper](https://github.com/brentbiseda/w266_project/blob/master/W266%20Final%20Project%20Paper.pdf)
 - [Final Project Presentation](https://github.com/brentbiseda/w266_project/blob/master/W266%20Final%20Project%20Presentation%20Slides.pdf)
+
+**Datasets**
+
+- [Drug reviews](https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29)
+- [ADRs in Twitter](http://diego.asu.edu/Publications/ADRMine.html)
+
+**Github References**
+
+- [BERT](https://github.com/google-research/bert)
+- [BioBERT](https://github.com/dmis-lab/biobert)
+- [clinicalBERT](https://github.com/EmilyAlsentzer/clinicalBERT)
+- [clinical-BioBERT](https://github.com/arnavbhandari/clinical-BioBERT)
+
 
 ## Installation    
 
